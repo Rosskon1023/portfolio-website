@@ -15,7 +15,7 @@ function App() {
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
@@ -41,6 +41,95 @@ function App() {
                 </div>
             </section>
             <hr class="m-0" />
+            <section class='resume-section p-3 p-lg-5 d-flex justify-content-center' id='portfolio'>
+              <div class='w-100'>
+                <h2 class='mb-5'>Portfolio</h2>
+
+                <div class='resume-item d-flex flex-column flex-md-row justify-content-between mb-5'>
+                  <div class='resume-content'>
+                    <h3 class='mb-0'>Bingr</h3>
+                    <div class='subheading mb-3'>
+                      Online running platform.
+                    </div>
+                    <p>
+                    Startup that allows users to find local runners, start running clubs, and/or schedule running events. Users are incentivized to invite and run with others via real-time chat, invitations, and following/like features.
+                    </p>
+                    <a href='https://runmatchv3.herokuapp.com/'>
+                      <i class='fas fa-link'></i>
+                    </a>
+                    <a href='https://github.com/teddysmithdev/runmatch'>
+                      <i class='fab fa-github ml-3'></i>
+                    </a>
+                  </div>
+                </div>
+
+                <div class='resume-item d-flex flex-column flex-md-row justify-content-between mb-5'>
+                  <div class='resume-content'>
+                    <h3 class='mb-0'>Popcorn Time</h3>
+                    <div class='subheading mb-3'>
+                      Natural Language Processing Web App
+                    </div>
+                    <p>
+                      Each morning at 9:00am a Scrapy spider crawls real-estate blog
+                      articles and runs them thru TextBlob (a sentiment analysis
+                      wrapper for NLTK). After performing sentiment analysis it
+                      stores all the data into MongoDB cloud. For the frontend, I
+                      used React to communicate to a Flask API which displays all
+                      the database data.
+                    </p>
+                    <a href='https://upbeat-neumann-e3f17d.netlify.com/'>
+                      <i class='fas fa-link'></i>
+                    </a>
+                    <a href='https://github.com/teddysmithdev/Sentiment-analysis-of-realestate-news-data'>
+                      <i class='fab fa-github ml-3'></i>
+                    </a>
+                  </div>
+                </div>
+
+                <div class='resume-item d-flex flex-column flex-md-row justify-content-between mb-5'>
+                  <div class='resume-content'>
+                    <h3 class='mb-0'>Palletable</h3>
+                    <div class='subheading mb-3'>
+                      Low-interaction TCP Python Honeypot
+                    </div>
+                    <p>
+                      A honeypot that logs all SSH, TELNET, and ICMP connections
+                      along with the first 1024 bytes of data from connection. Each
+                      connection is stored in a Postgres database with all logic
+                      being handled by Django backend. Each honeypot is a seperate
+                      script that runs in the background of Django using
+                      Celery/Redis combination.
+                    </p>
+                    <a href='http://www.djangohoney.com'>
+                      <i class='fas fa-link'></i>
+                    </a>
+                    <a href='https://github.com/teddysmithdev/django-honeypot'>
+                      <i class='fab fa-github ml-3'></i>
+                    </a>
+                  </div>
+                </div>
+
+                <div class='resume-item d-flex flex-column flex-md-row justify-content-between mb-5'>
+                  <div class='resume-content'>
+                    <h3 class='mb-0'>Speculation Nation</h3>
+                    <div class='subheading mb-3'>Financial Statement Dashboard</div>
+                    <p>
+                      React dashboard that provides visulizations for financial
+                      statements. Data is pulled from Financial Modeling Prep API
+                      and visualized via ChartJS. Provides live search functionality
+                      and state management from Context API.
+                    </p>
+                    <a href='http://www.buffetologist.com'>
+                      <i class='fas fa-link'></i>
+                    </a>
+                    <a href='https://github.com/teddysmithdev/buffetologist'>
+                      <i class='fab fa-github ml-3'></i>
+                    </a>
+                  </div>
+                </div> 
+              </div>
+            </section>
+            <hr class="m-0" />
             <section class="resume-section" id="skills">
                 <div class="resume-section-content">
                     <h2 class="mb-4">Relevant Skills</h2>
@@ -62,7 +151,7 @@ function App() {
                 </div>
             </section>
             <hr class="m-0" />
-            <section class="resume-section" id="experience">
+            <section class="resume-section m-0" id="experience">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Professional Experience</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
@@ -72,7 +161,6 @@ function App() {
                             <div class="subheading-sm mb-0">Vice President | December 2020 - Present</div>
                             <div class="subheading-sm mb-0">Assistant Vice President | July 2018 - December 2020  </div>
                             <div class="subheading-sm mb-2">Analyst | June 2016 - July 2018  </div>
-                            <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">June 2016 - Present</span></div>
                     </div>
