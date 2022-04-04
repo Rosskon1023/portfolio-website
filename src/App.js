@@ -33,7 +33,7 @@ function App() {
                         New York, NY 10065&nbsp; ||  973-865-9567&nbsp; || &nbsp;&nbsp;
                         <a href="mailto:rosskon1023@gmail.com">rosskon1023@gmail.com</a>
                     </div>
-                    <p class="lead mb-5">Placeholder text for my custom built personal statement</p>
+                    <p class="lead mb-5">I am a software engineer with an entrepreneurial spirit that is highly motivated to to seek opportunities that facilitate personal and professional growth. With a background in finance and strategic planning, I pride myself on my ability to deliver reliable products, while considering long-term goals and objectives. </p>
                     <div class="social-icons">
                         <a class="social-icon" href="https://www.linkedin.com/in/ross-konesky-98126a89/"><i class="fab fa-linkedin-in"></i></a>
                         <a class="social-icon" href="https://github.com/Rosskon1023"><i class="fab fa-github"></i></a>
@@ -49,7 +49,7 @@ function App() {
                   <div class='resume-content'>
                     <h3 class='mb-0'>Bingr</h3>
                     <div class='subheading mb-3'>
-                      Online running platform.
+                      A niche platform for movie and television lovers.
                     </div>
                     <p>
                     Startup that allows users to find local runners, start running clubs, and/or schedule running events. Users are incentivized to invite and run with others via real-time chat, invitations, and following/like features.
@@ -67,7 +67,7 @@ function App() {
                   <div class='resume-content'>
                     <h3 class='mb-0'>Popcorn Time</h3>
                     <div class='subheading mb-3'>
-                      Natural Language Processing Web App
+                      A Movie Trailer discovery application.
                     </div>
                     <p>
                       Each morning at 9:00am a Scrapy spider crawls real-estate blog
@@ -90,7 +90,7 @@ function App() {
                   <div class='resume-content'>
                     <h3 class='mb-0'>Palletable</h3>
                     <div class='subheading mb-3'>
-                      Low-interaction TCP Python Honeypot
+                      Beauty for the socially conscious.
                     </div>
                     <p>
                       A honeypot that logs all SSH, TELNET, and ICMP connections
@@ -112,7 +112,7 @@ function App() {
                 <div class='resume-item d-flex flex-column flex-md-row justify-content-between mb-5'>
                   <div class='resume-content'>
                     <h3 class='mb-0'>Speculation Nation</h3>
-                    <div class='subheading mb-3'>Financial Statement Dashboard</div>
+                    <div class='subheading mb-3'>Speculate the future price of cryptocurrencies.</div>
                     <p>
                       React dashboard that provides visulizations for financial
                       statements. Data is pulled from Financial Modeling Prep API
@@ -180,7 +180,8 @@ function App() {
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">University of Wisconsin - Madison</h3>
-                            <div class="subheading mb-3">Bachelor of Business Administration</div>
+                            <div class="subheading mb-0">Bachelor of Business Administration</div>
+                            <div class="subheading-sm mb-0">Real Estate & Urban Land Economics</div>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">August 2012 - May 2016</span></div>
                     </div>
