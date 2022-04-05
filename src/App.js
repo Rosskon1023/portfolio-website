@@ -49,15 +49,24 @@ function App() {
                   <div class='resume-content'>
                     <h3 class='mb-0'>Bingr</h3>
                     <div class='subheading mb-3'>
-                      A niche platform for movie and television lovers.
+                      A niche social platform for movie and television lovers.
                     </div>
                     <p>
-                    Startup that allows users to find local runners, start running clubs, and/or schedule running events. Users are incentivized to invite and run with others via real-time chat, invitations, and following/like features.
+                    Inspired by an ever-growing list of movies and TV shows in my iPhone notes, Bingr is a full CRUD application that allows users to
+                    maintain and track movies/shows that they have watched (Bing'd It!) or want to watch (Up Next!).
+                    Users can add and view personal ratings and check out their all-time favorites.
+                    Have a friend or family member that you always turn to for recommendations?! 
+                    Use their Bingr profile as a "discover" page and add shows/movies directly to your Up Next list!
+                    <br></br>
+                    Add me as a friend to see what I'm watching: rosskon1023
+                      <br></br>
+                      <br></br>
+                      <strong>Technologies Used:</strong> Mongoose & MongoDB, Express, Node.js, Bcrypt, Axios, JavaScript, HTML, CSS, EJS, Deployed on Heroku
                     </p>
-                    <a href='https://runmatchv3.herokuapp.com/'>
+                    <a href='https://bingr-app.herokuapp.com/'>
                       <i class='fas fa-link'></i>
-                    </a>
-                    <a href='https://github.com/teddysmithdev/runmatch'>
+                    </a> &nbsp;&nbsp;
+                    <a href='https://github.com/Rosskon1023/Bingr'>
                       <i class='fab fa-github ml-3'></i>
                     </a>
                   </div>
@@ -70,18 +79,22 @@ function App() {
                       A Movie Trailer discovery application.
                     </div>
                     <p>
-                      Each morning at 9:00am a Scrapy spider crawls real-estate blog
-                      articles and runs them thru TextBlob (a sentiment analysis
-                      wrapper for NLTK). After performing sentiment analysis it
-                      stores all the data into MongoDB cloud. For the frontend, I
-                      used React to communicate to a Flask API which displays all
-                      the database data.
+                      In the mood for a movie but can't decide what to watch? Popcorn Time is a MERN-stack application that allows the user to discover and view movie trailers.
+                      Users can view trailers that are currently in theaters, or custom search by any/all of the following parameters:
+                      Date range of release, Actor, Genre or Film Rating. 
+                      "My Trailers" displays all of previously saved trailers, making the decision of what to watch easier than ever before. 
+                      <br></br>
+                      <br></br>
+                      <strong>Technologies Used:</strong> Mongoose & MongoDB, Express, React, Node.js, Google Firebase, Frontend deployed on Netlify, Backend deployed on Heroku
                     </p>
-                    <a href='https://upbeat-neumann-e3f17d.netlify.com/'>
+                    <a href='https://its-popcorn-time.netlify.app/'>
                       <i class='fas fa-link'></i>
-                    </a>
-                    <a href='https://github.com/teddysmithdev/Sentiment-analysis-of-realestate-news-data'>
-                      <i class='fab fa-github ml-3'></i>
+                    </a> &nbsp;&nbsp; 
+                    <a style={{textDecoration:'none'}} href='https://github.com/Rosskon1023/popcorn-time-frontend'>
+                      <i class='fab fa-github ml-3'></i> - frontend
+                    </a> &nbsp;&nbsp; 
+                    <a style={{textDecoration:'none'}} href='https://github.com/Rosskon1023/popcorn-time-backend'>
+                      <i class='fab fa-github ml-3'></i> - backend
                     </a>
                   </div>
                 </div>
@@ -93,17 +106,19 @@ function App() {
                       Beauty for the socially conscious.
                     </div>
                     <p>
-                      A honeypot that logs all SSH, TELNET, and ICMP connections
-                      along with the first 1024 bytes of data from connection. Each
-                      connection is stored in a Postgres database with all logic
-                      being handled by Django backend. Each honeypot is a seperate
-                      script that runs in the background of Django using
-                      Celery/Redis combination.
+                      Big online makeup store offer thousands of products to their costumers and it can 
+                      often be difficult to refine search to return products that align with moral preferences.
+                      Palettable is built for the socially conscious consumer in mind. 
+                      Users are empowered to shop their favorite looks from a curated collection of eco-friendly, vegan and cruelty-free products.
+                      With a personal accounts, users can favorite products that they love and build out a "look".
+                      <br></br>
+                      <br></br>
+                      <strong>Technologies Used:</strong> Python, Django, PostgreSQL, HTML5, CSS3, Deployed on Heroku
                     </p>
-                    <a href='http://www.djangohoney.com'>
+                    <a href='https://palettable-app.herokuapp.com/'>
                       <i class='fas fa-link'></i>
-                    </a>
-                    <a href='https://github.com/teddysmithdev/django-honeypot'>
+                    </a> &nbsp;&nbsp;
+                    <a href='https://github.com/Rosskon1023/palettable'>
                       <i class='fab fa-github ml-3'></i>
                     </a>
                   </div>
@@ -114,15 +129,18 @@ function App() {
                     <h3 class='mb-0'>Speculation Nation</h3>
                     <div class='subheading mb-3'>Speculate the future price of cryptocurrencies.</div>
                     <p>
-                      React dashboard that provides visulizations for financial
-                      statements. Data is pulled from Financial Modeling Prep API
-                      and visualized via ChartJS. Provides live search functionality
-                      and state management from Context API.
+                      What would the price of Ethereum be if it had the same market cap as Bitcoin? 
+                      With Speculation Nation, users can compare two cryptocurrencies and speculate the 
+                      potential price of the lower-capped currency if it were to achieve the higher marketcap.
+                      In addition, users build out their own cryptocurrency portfolio by adding currencies/quantities to a portfolio tracker.
+                      <br></br>
+                      <br></br>
+                      <strong>Technologies Used:</strong> HTML5, CSS3, JavaScript/jQuery, Deployed on Netlify
                     </p>
-                    <a href='http://www.buffetologist.com'>
+                    <a href='https://speculation-nation.netlify.app/'>
                       <i class='fas fa-link'></i>
-                    </a>
-                    <a href='https://github.com/teddysmithdev/buffetologist'>
+                    </a> &nbsp;&nbsp;
+                    <a href='https://github.com/Rosskon1023/speculation-nation'>
                       <i class='fab fa-github ml-3'></i>
                     </a>
                   </div>
