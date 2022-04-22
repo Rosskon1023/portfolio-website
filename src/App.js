@@ -33,7 +33,7 @@ function App() {
                         New York, NY 10065&nbsp; ||  973-865-9567&nbsp; || &nbsp;&nbsp;
                         <a href="mailto:rosskon1023@gmail.com">rosskon1023@gmail.com</a>
                     </div>
-                    <p class="lead mb-5">I am a software engineer with an entrepreneurial spirit that is highly motivated to to seek opportunities that facilitate personal and professional growth. With a background in finance and strategic planning, I pride myself on my ability to deliver reliable products, while considering long-term goals and objectives. </p>
+                    <p class="lead mb-5">I am a software engineer with an entrepreneurial spirit that is highly motivated to seek opportunities that facilitate personal and professional growth. With a background in project management, data analysis and strategic planning for a financial institution, I pride myself on my ability to deliver reliable products, while considering long-term goals and strategic objectives.</p>
                     <div class="social-icons">
                         <a class="social-icon" href="https://www.linkedin.com/in/ross-konesky-98126a89/"><i class="fab fa-linkedin-in"></i></a>
                         <a class="social-icon" href="https://github.com/Rosskon1023"><i class="fab fa-github"></i></a>
@@ -110,7 +110,7 @@ function App() {
                       often be difficult to refine search to return products that align with moral preferences.
                       Palettable is built for the socially conscious consumer in mind. 
                       Users are empowered to shop their favorite looks from a curated collection of eco-friendly, vegan and cruelty-free products.
-                      With a personal accounts, users can favorite products that they love and build out a "look".
+                      With a personal account, users can favorite products that they love and build out a "look".
                       <br></br>
                       <br></br>
                       <strong>Technologies Used:</strong> Python, Django, PostgreSQL, HTML5, CSS3, Deployed on Heroku
