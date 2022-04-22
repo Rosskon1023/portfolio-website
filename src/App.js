@@ -163,8 +163,10 @@ function App() {
                         <li class="list-inline-item"><i class="fab fa-react"></i></li>
                         <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
                         <li class="list-inline-item"><i class="fab fa-npm"></i></li>
-                        <li class="list-inline-item-text"> Django, Express, MongoDB, Heroku, Netlify</li>
-                        
+                        <li class="list-inline-item"><i class="devicon-django-plain"></i></li>
+                        <li class="list-inline-item"><i class="devicon-express-original"></i></li>
+                        <li class="list-inline-item"><i class="devicon-mongodb-plain-wordmark"></i></li>
+                        <li class="list-inline-item"><i class="devicon-heroku-original-wordmark"></i></li> 
                     </ul>
                 </div>
             </section>
