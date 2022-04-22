@@ -1,5 +1,10 @@
 import './App.css';
 import headshot from './assets/Ross.jpg';
+import bingr from './assets/Bingr_index.png';
+import palettable from './assets/Palet.png';
+import popcorntime from './assets/PT_Main.png';
+import popcorntime2 from './assets/PT_Show.png';
+import speculation from './assets/SpecNat.png';
 import { Fragment } from "react";
 
 function App() {
@@ -61,6 +66,9 @@ function App() {
                     Add me as a friend to see what I'm watching: rosskon1023
                       <br></br>
                       <br></br>
+                      <img class="img-fluid img-profile mx-auto mb-2" src={bingr} style={{borderRadius: '8px', boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px'}}alt="..." />
+                      <br></br>
+                      <br></br>
                       <strong>Technologies Used:</strong> Mongoose & MongoDB, Express, Node.js, Bcrypt, Axios, JavaScript, HTML, CSS, EJS, Deployed on Heroku
                     </p>
                     <a href='https://bingr-app.herokuapp.com/'>
@@ -83,6 +91,9 @@ function App() {
                       Users can view trailers that are currently in theaters, or custom search by any/all of the following parameters:
                       Date range of release, Actor, Genre or Film Rating. 
                       "My Trailers" displays all of previously saved trailers, making the decision of what to watch easier than ever before. 
+                      <br></br>
+                      <br></br>
+                      <img class="img-fluid img-profile mx-auto mb-2" src={popcorntime} style={{borderRadius: '8px', boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px'}}alt="..." />
                       <br></br>
                       <br></br>
                       <strong>Technologies Used:</strong> Mongoose & MongoDB, Express, React, Node.js, Google Firebase, Frontend deployed on Netlify, Backend deployed on Heroku
@@ -113,6 +124,9 @@ function App() {
                       With a personal account, users can favorite products that they love and build out a "look".
                       <br></br>
                       <br></br>
+                      <img class="img-fluid img-profile mx-auto mb-2" src={palettable} style={{borderRadius: '8px', boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px'}}alt="..." />
+                      <br></br>
+                      <br></br>
                       <strong>Technologies Used:</strong> Python, Django, PostgreSQL, HTML5, CSS3, Deployed on Heroku
                     </p>
                     <a href='https://palettable-app.herokuapp.com/'>
@@ -133,6 +147,9 @@ function App() {
                       With Speculation Nation, users can compare two cryptocurrencies and speculate the 
                       potential price of the lower-capped currency if it were to achieve the higher marketcap.
                       In addition, users build out their own cryptocurrency portfolio by adding currencies/quantities to a portfolio tracker.
+                      <br></br>
+                      <br></br>
+                      <img class="img-fluid img-profile mx-auto mb-2" src={speculation} style={{borderRadius: '8px', boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px'}}alt="..." />
                       <br></br>
                       <br></br>
                       <strong>Technologies Used:</strong> HTML5, CSS3, JavaScript/jQuery, Deployed on Netlify
