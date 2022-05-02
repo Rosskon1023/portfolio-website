@@ -3,7 +3,6 @@ import headshot from './assets/Ross.jpg';
 import bingr from './assets/Bingr_index.png';
 import palettable from './assets/Palet.png';
 import popcorntime from './assets/PT_Main.png';
-import popcorntime2 from './assets/PT_Show.png';
 import speculation from './assets/SpecNat.png';
 import { Fragment } from "react";
 
@@ -38,7 +37,7 @@ function App() {
                         New York, NY 10065&nbsp; ||  973-865-9567&nbsp; || &nbsp;&nbsp;
                         <a href="mailto:rosskon1023@gmail.com">rosskon1023@gmail.com</a>
                     </div>
-                    <p class="lead mb-5">I am a software engineer with an entrepreneurial spirit that is highly motivated to seek opportunities that facilitate personal and professional growth. With a background in project management, data analysis and strategic planning for a financial institution, I pride myself on my ability to deliver reliable products, while considering long-term goals and strategic objectives.</p>
+                    <p class="lead mb-5">I am a software engineer with an entrepreneurial spirit that is highly motivated to seek opportunities that facilitate personal and professional growth. With a background in project management, data analysis and strategic planning for a leading financial institution, I pride myself on my ability to deliver reliable results, while considering long-term goals and strategic objectives.</p>
                     <div class="social-icons">
                         <a class="social-icon" href="https://www.linkedin.com/in/ross-konesky-98126a89/"><i class="fab fa-linkedin-in"></i></a>
                         <a class="social-icon" href="https://github.com/Rosskon1023"><i class="fab fa-github"></i></a>
